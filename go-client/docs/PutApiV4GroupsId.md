@@ -1,0 +1,51 @@
+# PutApiV4GroupsId
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Name** | **string** | The name of the group | [optional] [default to null]
+**Path** | **string** | The path of the group | [optional] [default to null]
+**Description** | **string** | The description of the group | [optional] [default to null]
+**Visibility** | **string** | The visibility of the group | [optional] [default to null]
+**Avatar** | [****os.File**](*os.File.md) | Avatar image for the group | [optional] [default to null]
+**ShareWithGroupLock** | **bool** | Prevent sharing a project with another group within this group | [optional] [default to null]
+**RequireTwoFactorAuthentication** | **bool** | Require all users in this group to setup Two-factor authentication | [optional] [default to null]
+**TwoFactorGracePeriod** | **int32** | Time before Two-factor authentication is enforced | [optional] [default to null]
+**ProjectCreationLevel** | **string** | Determine if developers can create projects in the group | [optional] [default to null]
+**AutoDevopsEnabled** | **bool** | Default to Auto DevOps pipeline for all projects within this group | [optional] [default to null]
+**SubgroupCreationLevel** | **string** | Allowed to create subgroups | [optional] [default to null]
+**EmailsDisabled** | **bool** | _(Deprecated)_ Disable email notifications. Use: emails_enabled | [optional] [default to null]
+**EmailsEnabled** | **bool** | Enable email notifications | [optional] [default to null]
+**ShowDiffPreviewInEmail** | **bool** | Include the code diff preview in merge request notification emails | [optional] [default to null]
+**MentionsDisabled** | **bool** | Disable a group from getting mentioned | [optional] [default to null]
+**LfsEnabled** | **bool** | Enable/disable LFS for the projects in this group | [optional] [default to null]
+**RequestAccessEnabled** | **bool** | Allow users to request member access | [optional] [default to null]
+**DefaultBranch** | **string** | The default branch of group&#39;s projects | [optional] [default to null]
+**DefaultBranchProtection** | **int32** | Determine if developers can push to default branch | [optional] [default to null]
+**DefaultBranchProtectionDefaults** | [***PostApiV4GroupsDefaultBranchProtectionDefaults**](postApiV4Groups_default_branch_protection_defaults.md) |  | [optional] [default to null]
+**SharedRunnersSetting** | **string** | Enable/disable shared runners for the group and its subgroups and projects | [optional] [default to null]
+**EnabledGitAccessProtocol** | **string** | Allow only the selected protocols to be used for Git access. | [optional] [default to null]
+**MembershipLock** | **bool** | Prevent adding new members to projects within this group | [optional] [default to null]
+**LdapCn** | **string** | LDAP Common Name | [optional] [default to null]
+**LdapAccess** | **int32** | A valid access level | [optional] [default to null]
+**SharedRunnersMinutesLimit** | **int32** | (admin-only) Compute minutes quota for this group | [optional] [default to null]
+**ExtraSharedRunnersMinutesLimit** | **int32** | (admin-only) Extra compute minutes quota for this group | [optional] [default to null]
+**WikiAccessLevel** | **string** | Wiki access level. One of &#x60;disabled&#x60;, &#x60;private&#x60; or &#x60;enabled&#x60; | [optional] [default to null]
+**PreventSharingGroupsOutsideHierarchy** | **bool** | Prevent sharing groups within this namespace with any groups outside the namespace. Only available on top-level groups. | [optional] [default to null]
+**LockMathRenderingLimitsEnabled** | **bool** | Indicates if math rendering limits are locked for all descendent groups. | [optional] [default to null]
+**MathRenderingLimitsEnabled** | **bool** | Indicates if math rendering limits are used for this group. | [optional] [default to null]
+**FileTemplateProjectId** | **int32** | The ID of a project to use for custom templates in this group | [optional] [default to null]
+**PreventForkingOutsideGroup** | **bool** | Prevent forking projects inside this group to external namespaces | [optional] [default to null]
+**UniqueProjectDownloadLimit** | **int32** | Maximum number of unique projects a user can download in the specified time period before they are banned. | [optional] [default to null]
+**UniqueProjectDownloadLimitIntervalInSeconds** | **int32** | Time period during which a user can download a maximum amount of projects before they are banned. | [optional] [default to null]
+**UniqueProjectDownloadLimitAllowlist** | **[]string** | List of usernames excluded from the unique project download limit | [optional] [default to null]
+**UniqueProjectDownloadLimitAlertlist** | **[]int32** | List of user ids who will be emailed when Git abuse rate limit is exceeded | [optional] [default to null]
+**AutoBanUserOnExcessiveProjectsDownload** | **bool** | Ban users from the group when they exceed maximum number of unique projects download in the specified time period | [optional] [default to null]
+**IpRestrictionRanges** | **string** | List of IP addresses which need to be restricted for group | [optional] [default to null]
+**ServiceAccessTokensExpirationEnforced** | **bool** | To enforce token expiration for Service accounts users for group | [optional] [default to null]
+**DuoFeaturesEnabled** | **bool** | Indicates whether GitLab Duo features are enabled for the group | [optional] [default to null]
+**LockDuoFeaturesEnabled** | **bool** | Indicates if the GitLab Duo features enabled setting is enforced for all subgroups | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

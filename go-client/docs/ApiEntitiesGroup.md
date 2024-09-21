@@ -1,0 +1,50 @@
+# ApiEntitiesGroup
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **string** |  | [optional] [default to null]
+**WebUrl** | **string** |  | [optional] [default to null]
+**Name** | **string** |  | [optional] [default to null]
+**Path** | **string** |  | [optional] [default to null]
+**Description** | **string** |  | [optional] [default to null]
+**Visibility** | **string** |  | [optional] [default to null]
+**ShareWithGroupLock** | **string** |  | [optional] [default to null]
+**RequireTwoFactorAuthentication** | **string** |  | [optional] [default to null]
+**TwoFactorGracePeriod** | **string** |  | [optional] [default to null]
+**ProjectCreationLevel** | **string** |  | [optional] [default to null]
+**AutoDevopsEnabled** | **string** |  | [optional] [default to null]
+**SubgroupCreationLevel** | **string** |  | [optional] [default to null]
+**EmailsDisabled** | **bool** |  | [optional] [default to null]
+**EmailsEnabled** | **bool** |  | [optional] [default to null]
+**MentionsDisabled** | **string** |  | [optional] [default to null]
+**LfsEnabled** | **string** |  | [optional] [default to null]
+**MathRenderingLimitsEnabled** | **bool** |  | [optional] [default to null]
+**LockMathRenderingLimitsEnabled** | **bool** |  | [optional] [default to null]
+**DefaultBranch** | **string** |  | [optional] [default to null]
+**DefaultBranchProtection** | **string** |  | [optional] [default to null]
+**DefaultBranchProtectionDefaults** | **string** |  | [optional] [default to null]
+**AvatarUrl** | **string** |  | [optional] [default to null]
+**RequestAccessEnabled** | **string** |  | [optional] [default to null]
+**FullName** | **string** |  | [optional] [default to null]
+**FullPath** | **string** |  | [optional] [default to null]
+**CreatedAt** | **string** |  | [optional] [default to null]
+**ParentId** | **string** |  | [optional] [default to null]
+**OrganizationId** | **string** |  | [optional] [default to null]
+**SharedRunnersSetting** | **string** |  | [optional] [default to null]
+**CustomAttributes** | [***ApiEntitiesCustomAttribute**](API_Entities_CustomAttribute.md) |  | [optional] [default to null]
+**Statistics** | [***ApiEntitiesGroupStatistics**](API_Entities_Group_statistics.md) |  | [optional] [default to null]
+**LdapCn** | **string** |  | [optional] [default to null]
+**LdapAccess** | **string** |  | [optional] [default to null]
+**LdapGroupLinks** | [***EeApiEntitiesLdapGroupLink**](EE_API_Entities_LdapGroupLink.md) |  | [optional] [default to null]
+**SamlGroupLinks** | [***EeApiEntitiesSamlGroupLink**](EE_API_Entities_SamlGroupLink.md) |  | [optional] [default to null]
+**FileTemplateProjectId** | **string** |  | [optional] [default to null]
+**MarkedForDeletionOn** | **string** |  | [optional] [default to null]
+**WikiAccessLevel** | **string** |  | [optional] [default to null]
+**RepositoryStorage** | **string** |  | [optional] [default to null]
+**DuoFeaturesEnabled** | **string** |  | [optional] [default to null]
+**LockDuoFeaturesEnabled** | **string** |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

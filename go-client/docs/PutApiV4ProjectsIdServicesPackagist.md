@@ -1,0 +1,15 @@
+# PutApiV4ProjectsIdServicesPackagist
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Username** | **string** | The username | [default to null]
+**Token** | **string** | The Packagist API token | [default to null]
+**Server** | **string** | The server | [optional] [default to null]
+**PushEvents** | **bool** | Trigger event for pushes to the repository. | [optional] [default to null]
+**MergeRequestsEvents** | **bool** | Trigger event when a merge request is created, updated, or merged. | [optional] [default to null]
+**TagPushEvents** | **bool** | Trigger event for new tags pushed to the repository. | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
